@@ -1,0 +1,17 @@
+plugins {
+    id "java"
+    id "application"
+}
+
+group = "ir.amir_ab"
+version = "1.0-SNAPSHOT"
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+application {
+    mainClassName = "ir.amirab.serversocket.Server"
+}
+jar{
+    manifest{
+        attributes"Main-Class" : "ir.amirab.serversocket.Server"
+    }
+}

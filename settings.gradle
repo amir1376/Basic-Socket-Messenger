@@ -1,0 +1,3 @@
+rootProject.name = "SocketTest"
+include ("Client")
+include ("Server")
